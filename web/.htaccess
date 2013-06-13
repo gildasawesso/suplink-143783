@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^([_a-z0-9A-Z]*)$  index.php?param1=$1 [L]
+RewriteRule ^([_a-z0-9A-Z]*)/([_a-z0-9A-Z]*)$  index.php?param1=$1&param2=$2 [L]
