@@ -1,7 +1,7 @@
 <?php
 require_once('constant/info_db.php');
 
-
+//this class is for manage of user
 
 Class User {
 
